@@ -1,0 +1,91 @@
+@import url(reset.css);
+
+.header {
+	height: 60px;
+	width: 1440px;
+	background-color: red;
+	position: absolute;
+}
+.footer {
+	height: 60px;
+	width: 1440px;
+	background-color: red;
+	position: absolute;
+	top: 964px;
+}
+header p {
+	position: absolute;
+	width: 820px;
+	height: 20px;
+	left: 20px;
+	top: 20px;
+	color: white;
+	font-family: Helvetica;
+	font-size: 20px;
+	line-height: 23px;
+}
+
+.copyright {
+	position: relative;
+	width: 170px;
+	height: 20px;
+	left: 20px;
+	top: 20px;
+	font-family: Helvetica;
+	font-size: 20px;
+	line-height: 20px;
+	color: white;
+}
+.back {
+	position: absolute;
+	width: 70px;
+	height: 20px;
+	left: 1350px;
+	top: 20px;
+	font-family: Helvetica;
+	font-size: 20px;
+	line-height: 20px;
+	color: white;
+	text-decoration: none;
+}
+.sectionOne {
+	position: absolute;
+	width: 400px;
+	height: 800px;
+	left: 103px;
+	top: 110px;
+	font-family: Times New Roman;
+	font-size: 20px;
+	line-height: 23px;
+	text-align: left;
+	vertical-align: center;
+}
+.sectionTwo {
+	position: absolute;
+	width: 400px;
+	height: 800px;
+	left: 553px;
+	top: 110px;
+	font-family: Times New Roman;
+	font-size: 20px;
+	line-height: 23px;
+}
+.sectionThree {
+	position: absolute;
+	width: 400px;
+	height: 800px;
+	left: 1003px;
+	top: 110px;
+	font-family: Times New Roman;
+	font-size: 20px;
+	line-height: 23px;
+}
+.heading {
+	font-weight: bold;
+}
+section {
+	border: 5px solid #E5E000;
+	box-sizing: border-box;
+	border-radius: 30px;
+	padding: 30px;
+}
