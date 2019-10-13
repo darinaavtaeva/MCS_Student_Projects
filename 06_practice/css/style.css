@@ -1,0 +1,142 @@
+@import url(reset.css);
+body {
+	height: 3000px;
+}
+.header {
+	width: 1440px;
+	height: 140px;
+	background-color: white;
+	position: fixed;
+	display: flex;
+	flex-direction: row;
+	font-family: Arial;
+	font-size: 50px;
+	line-height: 57px;
+	z-index: 1;
+}
+.evian {
+	display: flex;
+	align-items: center;
+	color: red;
+	justify-content: flex-start;
+	margin: 40px;
+	font-family: Arial;
+	font-size: 50px;
+	line-height: 57px;
+	width: 900px;
+}
+.link {
+	color: red;
+	text-decoration: none;
+}
+.links {
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+}
+.link.three {
+	margin: 10px;
+}
+.link.two {
+	margin: 10px;
+}
+.link.one {
+	margin: 10px;
+}
+.image {
+	position: relative;
+	width: 1440px;
+	height: 950px;
+	left: 0px;
+	top: 140px;
+}
+.text {
+	position: absolute;
+	width: 992px;
+	height: 260px;
+	left: 225px;
+	top: 1264px;
+	font-family: Arial;
+	font-size: 25px;
+	line-height: 29px;
+	display: flex;
+	flex-direction: column; 
+	align-items: flex-start;
+	letter-spacing: 0.05cm;
+	border: 3px solid #F8BFC7;
+	border-radius: 20px;
+	padding: 30px;
+}
+.images {
+	position: absolute;
+	top: 1600px;
+	width: 1440px;
+	height: 850px;
+	display: flex;
+	justify-content: space-around;
+	margin-top: 180px;
+}
+.titles {
+	position: absolute;
+	top: 2600px;
+	width: 1440px;
+	height: 200px;
+	display: flex;
+	justify-content: space-around;
+	font-family: Arial;
+	font-size: 25px;
+	line-height: 29px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	color: black;
+	margin-left: 10px;
+}
+.bottomSection {
+	position: absolute;
+	top: 2890px;
+	width: 1100px;
+	height: 320px;
+	display: flex;
+	justify-content: space-around;
+	left: 160px;
+	margin: 30px;
+	border: 3px solid #F8BFC7;
+	box-sizing: border-box;
+	border-radius: 20px;
+	padding: 50px;
+}
+.bottle {
+	width: 101px;
+	height: 220px;
+}
+.paragraph {
+	width: 749px;
+	height: 220px;
+	font-family: Arial;
+	font-size: 25px;
+	line-height: 29px;
+	display: flex;
+	align-items: center;
+	letter-spacing: 0.05cm;
+}
+footer {
+	width: 1440px;
+	height: 140px;
+	position: absolute;
+	top: 3335px;
+	background: #F8BFC7;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;	
+}
+.copyright, .back {
+	font-family: Arial;
+	font-size: 50px;
+	line-height: 57px;
+	display: flex;
+	align-items: center;
+	color: white;
+	margin: 50px;
+	text-decoration: none;
+}

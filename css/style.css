@@ -33,6 +33,7 @@
 	line-height: 29px;
 	display: flex;
 	align-items: center;
+	justify-content: space-around;
 	text-transform: uppercase;
 	color: #8B4513;
 	letter-spacing: 10px;
