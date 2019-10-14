@@ -152,4 +152,6 @@ footer {
 	color: white;
 	margin: 50px;
 	text-decoration: none;
+	flex-wrap: wrap;
+	align-content: center;
 }
