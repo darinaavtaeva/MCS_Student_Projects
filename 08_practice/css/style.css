@@ -1,0 +1,73 @@
+@import url(reset.css);
+
+header {
+	height: 160px;
+	width: 100%;
+	background-color: #FEB700;
+	display: flex;
+	align-items: center;
+}
+h1 {
+	font-family: Times New Roman;
+	font-size: 3.5em;
+	margin: auto;
+}
+.mainContent {
+	width: 80vw;
+	min-height: 500px;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: stretch;
+}
+.column {
+	width: calc((100% - 80px)/3);
+	font-family: Times New Roman;
+	font-size: 1.5em;
+	border: 1px solid black;
+	box-sizing: border-box;
+	margin-top: 5%;
+	margin-bottom: 6%;
+	height: 100%;
+}
+.text {
+	margin: 6%;
+}
+.image {
+	background-size: cover;
+	background-position: center;
+	padding-bottom: 100%;
+	min-height: 25vh;
+}
+.image.one {
+	background-image: url(../img/one.png);
+}
+.image.two {
+	background-image: url(../img/two.png);
+}
+.image.three {
+	background-image: url(../img/three.png);
+}
+
+.column h2 {
+	font-weight: bold;
+}
+footer {
+	height: 160px;
+	width: 100%;
+	background-color: #FEB700;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+footer p {
+	font-family: Times New Roman;
+	font-size: 3.5em;
+	margin: 3%;
+}
+.link {
+	text-decoration: none;
+}
+.link:visited {
+	color: black;
+}
