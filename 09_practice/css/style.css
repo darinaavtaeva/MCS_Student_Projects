@@ -1,0 +1,111 @@
+@import url(reset.css);
+
+.header {
+	height: 100px;
+	background-color: #0000FF;
+	color: white;
+	font-family: Helvetica;
+	font-size: 1.5em;
+	display: flex;
+	align-items: center;
+	padding-left: 6%;
+}
+
+.mainContent {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+.text {
+	height: 20vh;
+	width: 70vw;
+	border: 3px solid black;
+	box-sizing: border-box;
+	margin: 5%;
+	padding: 2%;
+
+	font-family: Helvetica;
+	font-size: 1.5em;
+	font-weight: bold;
+	display: flex;
+	align-items: center;
+	text-align: center;
+}
+
+.footer {
+	height: 100px;
+	background-color: #0000FF;
+	color: white;
+	font-family: Helvetica;
+	font-size: 1.5rem;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-left: 6%;
+	padding-right: 6%;
+}
+.link {
+	text-decoration: none;
+}
+.link:visited {
+	color: white;
+}
+
+
+
+@media screen and (min-width: 667px) {
+	.header {
+		height: 100px;
+		background-color: #0000FF;
+		color: white;
+		font-family: Helvetica;
+		font-size: 1.5em;
+		display: flex;
+		align-items: center;
+		padding-left: 4%;
+	}
+
+	.mainContent {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+		padding: 5%;
+	}
+	.text {
+		height: 30vh;
+		width: 40vw;
+		border: 3px solid black;
+		box-sizing: border-box;
+		margin: 1%;
+		padding: 4%;
+
+		font-family: Helvetica;
+		font-size: 1.4em;
+		font-weight: bold;
+		display: flex;
+		align-items: center;
+		text-align: center;
+	}
+
+	.footer {
+		height: 100px;
+		background-color: #0000FF;
+		color: white;
+		font-family: Helvetica;
+		font-size: 1.5em;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		padding-left: 4%;
+		padding-right: 4%;
+	}
+	.link {
+		text-decoration: none;
+	}
+	.link:visited {
+		color: white;
+	}
+}

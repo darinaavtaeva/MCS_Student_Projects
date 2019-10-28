@@ -14,7 +14,6 @@ h1 {
 }
 .mainContent {
 	width: 80vw;
-	min-height: 500px;
 	margin: auto;
 	display: flex;
 	justify-content: space-between;
