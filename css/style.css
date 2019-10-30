@@ -6,7 +6,7 @@
 
 .heading {
 	height: 130px;
-	width: 1440px;
+	width: 100%;
 	background-color: #FAEBD7;
 	font-family: 'Arch';
 	font-size: 55px;
@@ -19,14 +19,14 @@
 }
 .sectionOne {
 	height: 575px;
-	width: 1440px;
+	width: 100%;
 	background-image: url(../img/image.jpg);
 	background-attachment: fixed;
 	background-size: cover;
 }
 .sectionTwo {
 	height: 100px;
-	width: 1440px;
+	width: 100%;
 	background-color: #FAEBD7;
 	font-family: Helvetica, sans-serif;
 	font-size: 25px;
@@ -43,20 +43,21 @@
 	text-decoration: none;
 }
 .sectionThree p {
-	width: 1280px;
+	width: 80%;
+	margin: auto;
 	height: 627px;
-	text-align: left;
+	text-align: center;
 	letter-spacing: 5px;
-	position: absolute;
-	left: 80px;
-	top: 900px;
+	display: flex;
+	align-items: center;
+	left: 10%;
 	font-family: 'Pacifico', cursive;
-	font-size: 30px;
+	font-size: 2em;
 	font-weight: normal;
 }
 .footer {
 	position: absolute;
-	width: 1440px;
+	width: 100%;
 	height: 200px;
 	left: 0px;
 	top: 1400px;
